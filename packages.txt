@@ -1,25 +1,17 @@
-pandas
-numpy
-numpy_financial
-exp
-sqrt
-math
-streamlit
-matplotlib.pyplot
-chain
-itertools
-statistics
-sympy.solvers
-solve
-solveset
-linsolve
-nonlinsolve
-Symbol
-sympy
-datetime
-randint
-gauss
-random
-randrange
-plotly.express
-plotly.figure_factory
+import pandas as pd
+import numpy as np
+import numpy_financial as npf
+from math import exp, sqrt
+import streamlit as st
+import matplotlib.pyplot as plt
+from itertools import chain
+import statistics as stat
+from sympy.solvers import solve, solveset, linsolve, nonlinsolve
+from sympy import Symbol
+import datetime
+from random import randint, gauss
+from random import randrange
+import plotly.express as px
+import plotly.figure_factory as ff
+from random import gauss
+import random
